@@ -12,6 +12,7 @@ h1{
     color: white;
     font-size: 30px;
     font-weight: bold;
+    text-shadow: 5px 5px 5px black;
 }
 h2{
     font-size: 20px;
@@ -27,7 +28,10 @@ h2{
     position: fixed;
     width: 100%;
     font-weight: bold;
+    text-shadow: 5px 5px 5px black;
 }
-canvas{
+canvas, video{
     box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    border: 2px dashed black;
 }
